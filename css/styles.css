@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box; /* 1 */
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/** Estilos globales **/
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3 rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+
+/** Utilidades **/
+
+/** Header **/
