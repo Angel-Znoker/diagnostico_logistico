@@ -1,0 +1,97 @@
+@media (max-width: 1200px) {
+	body {
+		line-height: 1.4;
+	}
+
+	.contenedor {
+		max-width: 90%;
+	}
+
+	/** Estilos globales **/
+	h1 {
+		font-size: 3rem;
+	}
+
+	h2 {
+		font-size: 2.6rem;
+	}
+
+	h3 {
+		font-size: 2.2rem;
+	}
+
+	h4 {
+		font-size: 1.8rem;
+	}
+
+	/** Elección de cálculo**/
+	.contenido-eleccion {
+		padding: 1rem;
+	}
+}
+
+@media (max-width: 480px) {
+	/** Estilos globales **/
+	h1 {
+		font-size: 2.8rem;
+	}
+
+	h2 {
+		font-size: 2.4rem;
+	}
+
+	h3 {
+		font-size: 2.0rem;
+	}
+
+	h4 {
+		font-size: 1.6rem;
+	}
+
+	/** Elección de cálculo **/
+	.contenedor-eleccion {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.eleccion {
+		flex-basis: calc(90%);
+		margin-bottom: 2rem;
+	}
+
+	/** Entrada de datos **/
+	.entrada-datos {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding: 2rem;
+	}
+	.columna {
+		padding: 0;
+	}
+
+	.entrada {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.acciones {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 0;
+	}
+
+	.btn {
+		margin-top: 2rem;
+		width: 75%;
+	}
+
+	.pantalla-resultado h4 {
+		margin-top: 0;
+		margin-bottom: 1rem;
+	}
+
+}
