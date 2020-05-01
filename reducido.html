@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Regr. Log. Dimensión reducida</title>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<header class="site-header">
+			<h1 class="centrar-texto">Regresión Logística con Dimensión Reducida</h1>
+		</header>
+
+		<main class="contenedor seccion">
+			<h4 class="centrar-texto">Introduce los datos para iniciar el cálculo</h4>
+
+			<div class="entrada-datos">
+				<div class="columna">
+					<div class="entrada">
+						<label>Texture</label>
+						<input class="form-control" type="text" placeholder="0.0">
+					</div>
+
+					<div class="entrada">
+						<label>Area</label>
+						<input class="form-control" type="text" placeholder="0.0">
+                    </div>
+                    
+                    <div class="entrada">
+						<label>Compactness</label>
+						<input class="form-control" type="text" placeholder="0.0">
+					</div>
+				</div>
+
+				<div class="columna">
+					<div class="entrada">
+						<label>Concavity</label>
+						<input class="form-control" type="text" placeholder="0.0">
+					</div>
+
+					<div class="entrada">
+						<label>Symmetry</label>
+						<input class="form-control" type="text" placeholder="0.0">
+					</div>
+
+					<div class="entrada">
+						<label>Fractal Dimension</label>
+						<input class="form-control" type="text" placeholder="0.0">
+					</div>
+				</div>
+			</div>
+
+			<div class="acciones">
+				<button class="btn btn-default">Limpiar datos</button>
+				<button class="btn btn-default">Calcular</button>
+			</div>
+
+			<div class="pantalla-resultado">
+				<h3>Diagnosis</h3>
+				<div id="resultado"></div>
+			</div>
+		</main>
+	</body>
+</html>
