@@ -11,8 +11,8 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/responsive.css">
 	</head>
-	<body>
-		<header class="site-header">
+	<body onload="init()">
+		<header class="site-header inicio">
 			<h1 class="centrar-texto">Regresión Logística con Dimensión Reducida</h1>
 		</header>
 
@@ -22,52 +22,51 @@
 			<div class="entrada-datos">
 				<div class="columna">
 					<div class="entrada">
-						<label>Texture</label>
-						<input class="form-control" type="text" placeholder="0.0">
+						<label>Textura</label>
+						<input id="texture" class="form-control" type="number" value="0.0" placeholder="0.0">
 					</div>
 
 					<div class="entrada">
-						<label>Area</label>
-						<input class="form-control" type="text" placeholder="0.0">
+						<label>Área</label>
+						<input id="area" class="form-control" type="number" value="0.0" placeholder="0.0">
                     </div>
                     
                     <div class="entrada">
-						<label>Compactness</label>
-						<input class="form-control" type="text" placeholder="0.0">
+						<label>Compacticidad</label>
+						<input id="compactness" class="form-control" type="number" value="0.0" placeholder="0.0">
 					</div>
 				</div>
 
 				<div class="columna">
 					<div class="entrada">
-						<label>Concavity</label>
-						<input class="form-control" type="text" placeholder="0.0">
+						<label>Concavidad</label>
+						<input id="concavity" class="form-control" type="number" value="0.0" placeholder="0.0">
 					</div>
 
 					<div class="entrada">
 						<label>Symmetry</label>
-						<input class="form-control" type="text" placeholder="0.0">
+						<input id="symmetry" class="form-control" type="number" value="0.0" placeholder="0.0">
 					</div>
 
 					<div class="entrada">
 						<label>Fractal Dimension</label>
-						<input class="form-control" type="text" placeholder="0.0">
+						<input id="fractal-dim" class="form-control" type="number" value="0.0" placeholder="0.0">
 					</div>
 				</div>
 			</div>
 
 			<div class="acciones">
-				<button class="btn btn-default">Limpiar datos</button>
-				<button class="btn btn-default">Calcular</button>
+				<button id="calcular" class="btn btn-default">Diagnosticar</button>
 			</div>
 
 			<div class="pantalla-resultado">
-				<h4>Diagnosis</h4>
+				<h4>Diagnóstico</h4>
 				<div id="resultado"></div>
 			</div>
 
 			<a class="boton boton-amarillo"href="index.html">Regresar</a>
 		</main>
 
-		<script src="js/regresionLogistica.js"></script>	
+		<script src="js/regLogReducida.js"></script>	
 	</body>
 </html>

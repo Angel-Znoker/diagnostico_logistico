@@ -154,6 +154,18 @@ img {
 	margin: 0;
 }
 
+.site-header.inicio {
+	background: url(../img/med.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 30vh;
+	min-height: 15rem;
+}
+
+.inicio h1 {
+	color: #2e2e2e;
+}
+
 /** Elección de cálculo **/
 .contenedor-eleccion {
 	display: flex;
