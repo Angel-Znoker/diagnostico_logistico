@@ -38,9 +38,9 @@ function calcRegLog(radius, texture, perimeter, area, smoothness, compactness, c
 	regLog = 1 / regLog;
 
 	if (regLog > 0.5) {
-		result = "Positivo";
+		result = "Benigno";
 	} else {
-		result = "Negativo";
+		result = "Maligno";
 	}
 
 	return result;
